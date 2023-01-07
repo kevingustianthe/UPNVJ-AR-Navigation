@@ -1,0 +1,220 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.DefaultCompany.UPNVJARNavigation"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="24"
+9-->D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:3-163
+13        android:anyDensity="true"
+13-->D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:135-160
+14        android:largeScreens="true"
+14-->D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:78-105
+15        android:normalScreens="true"
+15-->D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:49-77
+16        android:smallScreens="true"
+16-->D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:21-48
+17        android:xlargeScreens="true" />
+17-->D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:106-134
+18    <!-- permissions - add/remove as per required functionality -->
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:19:5-79
+19-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:19:22-76
+20    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+20-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:20:5-81
+20-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:20:22-78
+21    <uses-permission android:name="android.permission.INTERNET" />
+21-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:21:5-67
+21-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:21:22-64
+22    <uses-permission android:name="android.permission.CAMERA" />
+22-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:22:5-65
+22-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:22:22-62
+23    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+23-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:23:5-81
+23-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:23:22-78
+24    <uses-permission android:name="android.permission.READ_CONTACTS" />
+24-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:24:5-72
+24-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:24:22-69
+25    <uses-permission android:name="android.permission.VIBRATE" />
+25-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:25:5-66
+25-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:25:22-63
+26
+27    <uses-feature android:glEsVersion="0x00030000" />
+27-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:27:5-54
+27-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:27:19-51
+28    <uses-feature
+28-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:28:5-30:36
+29        android:name="android.hardware.vulkan.version"
+29-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:29:9-55
+30        android:required="false" />
+30-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:9-33
+31
+32    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+32-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:32:5-79
+32-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:32:22-76
+33
+34    <uses-feature
+34-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:34:5-36:36
+35        android:name="android.hardware.location.gps"
+35-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:9-53
+36        android:required="false" />
+36-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:36:9-33
+37    <uses-feature
+37-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:5-39:36
+38        android:name="android.hardware.location"
+38-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:38:9-49
+39        android:required="false" />
+39-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:9-33
+40    <uses-feature
+40-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:40:5-42:36
+41        android:name="android.hardware.camera"
+41-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:41:9-47
+42        android:required="false" />
+42-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:9-33
+43    <uses-feature
+43-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:43:5-45:36
+44        android:name="android.hardware.camera.autofocus"
+44-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:44:9-57
+45        android:required="false" />
+45-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:45:9-33
+46    <uses-feature
+46-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:46:5-48:36
+47        android:name="android.hardware.camera.front"
+47-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:9-53
+48        android:required="false" />
+48-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:48:9-33
+49    <uses-feature
+49-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:49:5-51:36
+50        android:name="android.hardware.touchscreen"
+50-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:50:9-52
+51        android:required="false" />
+51-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:51:9-33
+52    <uses-feature
+52-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:52:5-54:36
+53        android:name="android.hardware.touchscreen.multitouch"
+53-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:53:9-63
+54        android:required="false" />
+54-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:54:9-33
+55    <uses-feature
+55-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:55:5-57:36
+56        android:name="android.hardware.touchscreen.multitouch.distinct"
+56-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:56:9-72
+57        android:required="false" />
+57-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:57:9-33
+58
+59    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+59-->[:native-toolkit:] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\393a20315c042a6936335d6dd24c9e0e\native-toolkit\AndroidManifest.xml:13:5-75
+59-->[:native-toolkit:] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\393a20315c042a6936335d6dd24c9e0e\native-toolkit\AndroidManifest.xml:13:22-72
+60
+61    <application
+61-->D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:3-83
+62        android:debuggable="true"
+62-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:60:9-34
+63        android:extractNativeLibs="true"
+63-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:61:9-41
+64        android:icon="@mipmap/app_icon"
+64-->D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:49-80
+65        android:label="@string/app_name" >
+65-->D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:16-48
+66        <activity
+66-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:64:9-88:20
+67            android:name="com.unity3d.player.UnityPlayerActivity"
+67-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:65:13-66
+68            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+68-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:66:13-194
+69            android:hardwareAccelerated="false"
+69-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:67:13-48
+70            android:label="@string/app_name"
+70-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:68:13-45
+71            android:launchMode="singleTask"
+71-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:69:13-44
+72            android:resizeableActivity="false"
+72-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:70:13-47
+73            android:screenOrientation="fullUser" >
+73-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:71:13-49
+74            <intent-filter>
+74-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:72:13-77:29
+75                <action android:name="android.intent.action.MAIN" />
+75-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:73:17-69
+75-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:73:25-66
+76
+77                <category android:name="android.intent.category.LAUNCHER" />
+77-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:75:17-77
+77-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:75:27-74
+78                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+78-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:76:17-86
+78-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:76:27-83
+79            </intent-filter>
+80
+81            <meta-data
+81-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:79:13-81:40
+82                android:name="unityplayer.UnityActivity"
+82-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:80:17-57
+83                android:value="true" />
+83-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:81:17-37
+84            <meta-data
+84-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:82:13-84:40
+85                android:name="unityplayer.ForwardNativeEventsToDalvik"
+85-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:83:17-71
+86                android:value="true" />
+86-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:84:17-37
+87            <meta-data
+87-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:85:13-87:40
+88                android:name="android.notch_support"
+88-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:86:17-53
+89                android:value="true" />
+89-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:87:17-37
+90        </activity> <!-- native toolkit -->
+91        <activity
+91-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:90:9-92:62
+92            android:name="com.secondfury.nativetoolkit.MainActivity"
+92-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:91:13-69
+93            android:configChanges="orientation|screenSize" />
+93-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:92:13-59
+94        <activity android:name="com.secondfury.nativetoolkit.LocalNotificationResult" />
+94-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:93:9-89
+94-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:93:19-86
+95
+96        <receiver android:name="com.secondfury.nativetoolkit.LocalNotification" /> <!-- end native toolkit -->
+96-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:95:9-83
+96-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:95:19-80
+97        <meta-data
+97-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:97:9-99:33
+98            android:name="unity.splash-mode"
+98-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:98:13-45
+99            android:value="0" />
+99-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:99:13-30
+100        <meta-data
+100-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:100:9-102:36
+101            android:name="unity.splash-enable"
+101-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:101:13-47
+102            android:value="True" />
+102-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:102:13-33
+103        <meta-data
+103-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:103:9-105:36
+104            android:name="unity.launch-fullscreen"
+104-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:104:13-51
+105            android:value="True" />
+105-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:105:13-33
+106        <meta-data
+106-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:106:9-108:37
+107            android:name="unity.allow-resizable-window"
+107-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:107:13-56
+108            android:value="False" />
+108-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:108:13-34
+109        <meta-data
+109-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:109:9-111:50
+110            android:name="notch.config"
+110-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:110:13-40
+111            android:value="portrait|landscape" />
+111-->[:unityLibrary] D:\Kevin\Kuliah\Code\UPNVJ AR Navigation\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:111:13-47
+112    </application>
+113
+114</manifest>
